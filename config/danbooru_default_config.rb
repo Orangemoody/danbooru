@@ -49,12 +49,12 @@ module Danbooru
       if CurrentUser.safe_mode?
         "Safebooru"
       else
-        "Danbooru"
+        "Rennbooru"
       end
     end
 
     def canonical_app_name
-      "Danbooru"
+      "Rennbooru"
     end
 
     # A list of alternate domains for your site, if your site is accessible under multiple domains. For example,
@@ -130,7 +130,7 @@ module Danbooru
     #
     # Run `rake db:seed` to create this account if it doesn't already exist in your install.
     def system_user
-      "DanbooruBot"
+      "Leviathan-bot"
     end
 
     # The name of the cookie that stores the current user's login session.
@@ -247,7 +247,7 @@ module Danbooru
 
     # Maximum size of an upload. If you change this, you must also change `client_max_body_size` in your nginx.conf.
     def max_file_size
-      100.megabytes
+      4096.megabytes
     end
 
     # Maximum resolution (width * height) of an upload. Default: 441 megapixels (21000x21000 pixels).
@@ -268,7 +268,7 @@ module Danbooru
     # Maximum duration of an video in seconds.
     def max_video_duration
       # 2:20m
-      140
+      86400
     end
 
     # How long pending posts stay in the modqueue before being deleted.
