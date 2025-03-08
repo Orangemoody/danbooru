@@ -7,7 +7,7 @@
 To launch a Danbooru instance in your browser:
 
 1. [Create a Github account](https://github.com/signup).
-2. Click [Open in Github Codespaces](https://codespaces.new/danbooru/danbooru?quickstart=1).
+2. Click [Open in Github Codespaces](https://codespaces.new/Orangemoody/danbooru?quickstart=1).
 3. Click the `Create new codespace` button.
 4. Wait a few minutes for it to launch.
 
